@@ -48,7 +48,7 @@ Wtyczka służy do wykonywania prostych obliczeń w programie QGIS. Do jej funkc
   
  Obliczenia rozpoczynamy wyborem punktów na warstwie. Za pomocą opcji w QGIS "Zaznacz obiekty" wybieramy punkty, dla których chcemy wykonać obliczenia. Następnie w oknie dialogowym przyciskiem "Wybierz warstwę" wybieramy tę, na której znajdują się wybrane punkty. Następnie wybieramy operację, którą chcemy wykonać:
 - ***Oblicz przewyższenie*** zwraca wartość różnicy wysokości w metrach dla dwóch wybranych punktów (<ins>powinny być zaznaczone tylko 2 punkty),
-- ***Oblicz pole*** zwraca wartość pola powierzchni w metrach dla wybranych punktów (<ins>powinny być zaznaczone co najmniej 3 punkty)
+- ***Oblicz pole*** zwraca wartość pola powierzchni figury zawartej między wybranymi punktami w metrach (<ins>powinny być zaznaczone co najmniej 3 punkty)
  
  W obu przypadkach wyniki pojawiają się w oknie komunikatów programu QGIS.
   
