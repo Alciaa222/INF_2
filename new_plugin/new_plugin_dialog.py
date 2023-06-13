@@ -122,7 +122,7 @@ class NewPluginDialog(QtWidgets.QDialog, FORM_CLASS):
         if len(punkty) < 3:
             msg = QMessageBox()
             msg.setIcon(QMessageBox.Critical)
-            msg.setText('Proszę zaznaczyć co najmniej 3 punkty, gdy chcesz otrzymać różnicę wysokości')
+            msg.setText('Proszę zaznaczyć co najmniej 3 punkty, gdy chcesz otrzymać pole powierzchni')
             msg.setInformativeText('Nieprawidłowa ilość danych')
             msg.setWindowTitle("Nieprawidłowa ilość danych")
             msg.exec_()
